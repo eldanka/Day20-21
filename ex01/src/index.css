@@ -1,0 +1,64 @@
+button{
+    color: white;
+    background-color: black;
+    height: 4vw;
+    width: 4vw;
+    margin: 0.1vw;
+    border-color:  gray;
+    border-width: 2px;
+}
+body{
+    height: 10vw;
+    margin: 0;
+    margin-left: 15%;
+    margin-top: 5%;
+    justify-content: center;
+    min-height: 100%;
+
+}
+html, body {
+    min-height: 100%;
+}
+#backSpace {
+    width: 10vw;
+}
+#enter {
+    width: 10vw;
+}
+#capsLock {
+    width: 14.5vw;
+}
+#shift {
+    width: 14.5vw;
+}
+#space {
+    width: 39.5vw;
+}
+#ok {
+    width: 14.5vw;
+}
+div{
+    
+}
+textarea{
+    height: 20vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    width: 52vw;
+    border-color: rgb(128, 162, 224);
+    border-width: 2px;
+    resize: none;
+    font-size: 2vw;
+    color: rgb(128, 162, 224);
+    background-image: linear-gradient(
+        to top left,
+        white , blue 700%
+    );
+}
+h2{
+    font-size: 2vw;
+    margin: 0;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+    font-weight: bolder;
+}

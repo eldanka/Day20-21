@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script type = "text/javascript" src="index.js"></script> 
+        <title>Virtual Keyboard</title>
+    </head>
+    <body>
+        <h2>Virtual Keyboard</h2>
+        <textarea id="myTextarea" onfocus="this.placeholder = ''">TEXT AREA</textarea>
+        <div class="keyboard">
+            <div class="keyboard_keys">
+                <button type="button" value="1" id="keyboard_key" onclick="input(this.value)">1</button>
+                <button type="button" value="2" id="keyboard_key" onclick="input(this.value)">2</button>
+                <button type="button" value="3" id="keyboard_key" onclick="input(this.value)">3</button>
+                <button type="button" value="4" id="keyboard_key" onclick="input(this.value)">4</button>
+                <button type="button" value="5" id="keyboard_key" onclick="input(this.value)">5</button>
+                <button type="button" value="6" id="keyboard_key" onclick="input(this.value)">6</button>
+                <button type="button" value="7" id="keyboard_key" onclick="input(this.value)">7</button>
+                <button type="button" value="8" id="keyboard_key" onclick="input(this.value)">8</button>
+                <button type="button" value="9" id="keyboard_key" onclick="input(this.value)">9</button>
+                <button type="button" value="0" id="keyboard_key" onclick="input(this.value)">0</button>
+                <button type="button" id="backSpace" onclick="myFunctionBackspace()">Back Space</button>
+            </div>
+            <div class="secondRow">
+                <button type="button" value="q" id="keyboard_key" onclick="input(this.value)">q</button>
+                <button type="button" value="w" id="keyboard_key" onclick="input(this.value)">w</button>
+                <button type="button" value="e" id="keyboard_key" onclick="input(this.value)">e</button>
+                <button type="button" value="r" id="keyboard_key" onclick="input(this.value)">r</button>
+                <button type="button" value="t" id="keyboard_key" onclick="input(this.value)">t</button>
+                <button type="button" value="y" id="keyboard_key" onclick="input(this.value)">y</button>
+                <button type="button" value="u" id="keyboard_key" onclick="input(this.value)">u</button>
+                <button type="button" value="i" id="keyboard_key" onclick="input(this.value)">i</button>
+                <button type="button" value="o" id="keyboard_key" onclick="input(this.value)">o</button>
+                <button type="button" value="p" id="keyboard_key" onclick="input(this.value)">p</button>
+                <button id="enter" onclick="myFunctionEnter()">Enter</button>
+            </div>       
+            <div class="thirdRow">
+                <button type="button" value="a" id="keyboard_key" onclick="input(this.value)">a</button>
+                <button type="button" value="s" id="keyboard_key" onclick="input(this.value)">s</button>
+                <button type="button" value="d" id="keyboard_key" onclick="input(this.value)">d</button>
+                <button type="button" value="f" id="keyboard_key" onclick="input(this.value)">f</button>
+                <button type="button" value="g" id="keyboard_key" onclick="input(this.value)">g</button>
+                <button type="button" value="h" id="keyboard_key" onclick="input(this.value)">h</button>
+                <button type="button" value="j" id="keyboard_key" onclick="input(this.value)">j</button>
+                <button type="button" value="k" id="keyboard_key" onclick="input(this.value)">k</button>
+                <button type="button" value="l" id="keyboard_key" onclick="input(this.value)">l</button>
+                <button id="capsLock" onclick="input(this.value)">Caps Lock</button>
+            </div>
+            <div class="fourthRow">            
+                <button type="button" value="z" id="keyboard_key" onclick="input(this.value)">z</button>
+                <button type="button" value="x" id="keyboard_key" onclick="input(this.value)">x</button>
+                <button type="button" value="c" id="keyboard_key" onclick="input(this.value)">c</button>
+                <button type="button" value="v" id="keyboard_key" onclick="input(this.value)">v</button>
+                <button type="button" value="b" id="keyboard_key" onclick="input(this.value)">b</button>
+                <button type="button" value="n" id="keyboard_key" onclick="input(this.value)">n</button>
+                <button type="button" value="m" id="keyboard_key" onclick="input(this.value)">m</button>
+                <button type="button" value="-" id="keyboard_key" onclick="input(this.value)">-</button>
+                <button type="button" value="_" id="keyboard_key" onclick="input(this.value)">_</button>
+                <button id="shift" onclick="input(this.value)">Shift</button>
+            </div>
+            <div class="fifthRows">
+                <button id="space" onclick="myFunctionSpace()">Space</button>
+                <button id="ok" onclick="myFunctionOK()">OK</button>
+            </div>
+        </div>
+    </body>
+    <script type = "text/javascript" src="index.js"></script> 
+</html>
